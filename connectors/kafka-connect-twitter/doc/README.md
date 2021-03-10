@@ -16,13 +16,13 @@ tasks.max=1
 connector.class=com.github.jcustenborder.kafka.connect.twitter.TwitterSourceConnector
 
 # Set these required values
-twitter.oauth.accessTokenSecret=CjGxhnuU4sOQcRC7xwDCNhPtMVUy6mSRYzDMJngQndMfd
+twitter.oauth.accessTokenSecret=
 process.deletes=false
 filter.keywords=mohanlal,dhoni
 kafka.status.topic=twitter_01
-twitter.oauth.consumerSecret=xbOYYgsMbaoOX5O6wy4Kor87ZBEBIsszoyU9dnXLRB0PMowsZu
-twitter.oauth.accessToken=1354026347744677888-jGEmMoXRQgrEHNqPGe9U5HpFClRjft
-twitter.oauth.consumerKey=TZ2UhzlCfVuVah7pU0JKw837u
+twitter.oauth.consumerSecret=
+twitter.oauth.accessToken=
+twitter.oauth.consumerKey=
 ```
 
 | Name                            | Description                                       | Type     | Default | Valid Values | Importance |
